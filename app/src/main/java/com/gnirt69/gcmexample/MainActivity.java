@@ -39,6 +39,8 @@ public class MainActivity extends Activity {
                     //Registration success
                     String token = intent.getStringExtra("token");
                     Toast.makeText(getApplicationContext(), "GCM token:" + token, Toast.LENGTH_LONG).show();
+                    dbcaller(token);
+
                 } else if(intent.getAction().equals(GCMRegistrationIntentService.REGISTRATION_ERROR)){
                     //Registration error
                     Toast.makeText(getApplicationContext(), "GCM registration error!!!", Toast.LENGTH_LONG).show();
@@ -81,5 +83,12 @@ public class MainActivity extends Activity {
         super.onPause();
         Log.w("MainActivity", "onPause");
         LocalBroadcastManager.getInstance(this).unregisterReceiver(mRegistrationBroadcastReceiver);
+    }
+
+    public void dbcaller(String PToken) {
+        String innerToken = PToken;
+        DbConnector dbConnector = new DbConnector(this);
+        dbConnector.execute(innerToken);
+
     }
 }
