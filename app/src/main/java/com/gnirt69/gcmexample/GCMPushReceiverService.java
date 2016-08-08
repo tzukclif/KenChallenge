@@ -40,4 +40,3 @@ public class GCMPushReceiverService extends GcmListenerService {
         notificationManager.notify(0, noBuilder.build()); //0 = ID of notification
     }
 }
-da
