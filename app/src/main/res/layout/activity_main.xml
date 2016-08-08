@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+ <!--
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="47dp"
+     android:text="GCM example"
+     android:layout_gravity="center"
+     android:textSize="25dp"/>
+     -->
+
+ <WebView
+     android:layout_width="356dp"
+     android:layout_height="423dp"
+     android:id="@+id/webView"
+     android:layout_gravity="top"
+     android:layout_weight="1.09" />
+
+</LinearLayout>

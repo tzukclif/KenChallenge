@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "879139855911",
+    "project_id": "kenchallengebeta-1470431799097"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879139855911:android:8d657f60dc52db89",
+        "android_client_info": {
+          "package_name": "com.clif.tzuk.kenchallengebeta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiZUV8758suCo8kmh4zIHrIPZ5WeVCNbo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879139855911:android:42cc7f449ac58b86",
+        "android_client_info": {
+          "package_name": "com.gnirt69.gcmexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiZUV8758suCo8kmh4zIHrIPZ5WeVCNbo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
