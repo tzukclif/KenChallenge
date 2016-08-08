@@ -1,0 +1,35 @@
+SERVER:
+
+http://www.freehostingeu.com/eu.pn-domain-page.php
+
+username: merkadogames@gmail.com
+Pass: FriedChips
+Client ID: 2119303
+
+
+
+#####DELETED######
+DATABASE:
+DataBase Name:  2119303_kenchall
+DB UserName: 2119303_kenchal
+DataBase Password: FriedChips3.14
+Host: fdb7.freehostingeu.com
+#####DELETED######
+
+
+
+WORDPRESS:
+UserName: admin
+Pass: FriedChips3.14
+
+
+
+
+Android app ver 2:
+
+
+DATABASE:
+DataBase Name:  2119303_androapp
+DB UserName: 2119303_androapp
+DataBase Password: FriedChips3.14
+Host: fdb7.freehostingeu.com
