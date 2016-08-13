@@ -15,7 +15,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
-
+//kjkjk
 import javax.net.ssl.HttpsURLConnection;
 
 /**
